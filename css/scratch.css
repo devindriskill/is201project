@@ -1,0 +1,63 @@
+/* Requirements
+4. On-page anchor
+5. custom background color */
+body{
+    background-color: whitesmoke;
+    color: black;
+    text-align:left;
+    margin: 150px;
+    padding: 75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+
+.footer{
+    background-color: rgb(75, 210, 255);
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    line-height: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+    line-height: 20px;
+ 
+}
+h1, h2 {
+    text-align: center;
+}
+
+.in-text-photo {
+    width: 200px;
+    float: right
+}
+.container {
+    max-width: 500px
+    
+}
+.container {
+    max-width: 600px;
+    min-width: 280px;
+    width: 100%;
+    padding: 40px;
+    background-color: white;
+    border: 2px solid rgb(75, 210, 255);
+    box-sizing: border-box;
+}
+.video {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
